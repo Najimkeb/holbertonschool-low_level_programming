@@ -8,10 +8,13 @@
  */
 int main(void)
 {
+char c;
 int n;
 
 for (n = 0; n < 10; n++)
-printf("%d", n);
-printf("\n");
+for (c = 61; c < 66; c++)
+putchar("%d", n);
+putchar("%d", c);
+putchar("\n");
 return (0);
 }
