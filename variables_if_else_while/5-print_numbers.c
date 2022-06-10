@@ -9,7 +9,7 @@
 int main(void)
 {
 int n;
-for ('%d' = 0 ; '%d' <= 10 ; c++)
+for (n = 0 ; n <= 10 ; c++)
 putchar(c);
 putchar('\n');
 return (0);
