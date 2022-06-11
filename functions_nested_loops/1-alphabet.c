@@ -8,7 +8,7 @@
 /**
 *  print_alphabet - prints the alphabet in lowercase, followed by a new line.
 */
-print_alphabet(void)
+int print_alphabet(void)
 {
 char c;
 for (c = 'a'; c <= 'z'; c++)
