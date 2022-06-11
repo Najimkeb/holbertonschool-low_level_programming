@@ -1,11 +1,11 @@
 /*
-* File: 0-putchar.c
-* 
+*File: 0-putchar.c
+*File:main.h 
 *
 *
 */
 
-#include "main.h"
+#include"main.h"
 
 /**
 * main - Prints "_putchar" followed by a new line.
