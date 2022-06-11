@@ -10,11 +10,10 @@
 /**
 * main - Prints "_putchar" followed by a new line.
 *
-* Return: Always 0.
+* Return: Always 0 (Succes).
 */
 int main(void)
 {
-_putchar('_putchar');
-_putchar('\n')
+printf("_putchar\n");
 return (0);
 }
