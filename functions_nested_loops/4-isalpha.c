@@ -1,22 +1,24 @@
 #include "main.h"
 
 /**
- * _islower - Cfr description
+ * _isalpha - Cfr description
  * @c: input character
- * Description: checks for lower case character
- * Return: 1 if is lowercase and 0 otherwise
+ * Description: checks for lower case and upper case character
+ * Return: 1 and 0 otherwise
  */
 
-int _islower(int c)
+int _isalpha(int c)
 {
-	char i;
+	char lower, upper;
 	int b = 0;
 
-	for (i = 'a'; i <= 'z'; i++)
+	for (lower = 'a'; lower <= 'z'; lower++)
 	{
-		if (c == i)
-		b = 1;
+		for (upper = 'A'; upper <= 'Z'; upper++)
+		{
+			if (c == upper || c == lower)
+				b = 1;
+		}
 	}
 	return (b);
 }
-
