@@ -1,6 +1,6 @@
 /*
 *File: 0-putchar.c
-*File:main.h 
+*File: main.h 
 *
 *
 */
