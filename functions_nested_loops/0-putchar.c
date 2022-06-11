@@ -1,3 +1,10 @@
+/*
+ * File: 0-putchar.c
+ * File: main.h
+ *
+ *
+ */
+
 #include "_putchar.h"
 #include "stdio.h"
 #include "main.h"
