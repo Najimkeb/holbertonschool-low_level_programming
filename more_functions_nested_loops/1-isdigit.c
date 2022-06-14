@@ -9,6 +9,7 @@
 
 int _isdigit(int c);
 {
+	
 	int i;
 	int b = 0;
 
