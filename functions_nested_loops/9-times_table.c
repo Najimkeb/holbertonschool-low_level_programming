@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * void times_table() - check the code
+ * void times_table(void) - check the code
  *
  */
 
