@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- *print_number - check the code
+ * print_number - check the code
  *
  */ 
-void print_numbers(void);
+void print_numbers(void)
 
 {
 	int a, b
