@@ -6,7 +6,7 @@
  *
  */
 
-void times_table();
+void times_table(void);
 {
 	int n, i;
 
