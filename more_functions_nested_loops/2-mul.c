@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * mul - check the code
+ *mul - check the code
  *
- * Return: Always 0.
+ * Return (a * b)
  */
 int mul(int a, int b)
 {
-return (a * b);
+Return (a * b);
 
