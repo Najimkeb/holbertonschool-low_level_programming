@@ -13,7 +13,7 @@ int _isupper(int c)
 	char i;
 	int b = 0;
 
-	for (i = 'a'; i <= 'z'; i++)
+	for (i = 'A'; i <= 'Z'; i++)
 	{
 		if (c == i)
 		b = 1;
