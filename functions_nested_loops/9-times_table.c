@@ -3,7 +3,7 @@
 
 /**
  * void times_table() - check the code
- * return 0 Always
+ *
  */
 
 void times_table(void)
