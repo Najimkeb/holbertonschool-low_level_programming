@@ -1,22 +1,39 @@
 #include "main.h"
-#include <stdio.h>
 
-/**
+/*
  * void times_table(void) - check the code
- * resultat
- * return à zero
+ * print table 9
  */
 
-void times_table(void);
+void times_table(void)
 {
-	int n, i;
+	int n, i, m;
 
-	for (n = 9; n++)
-
-		for (i = 1; i <= 10; ++i)
+	for (n = 0; n <= 9; n++)
+	{
+		for (i = 0; i <= 9; i++)
 		{
-			resultat = n * i;
-			printf("%d\n", resultat);
+			m = n * i;
+			if (m > 9)
+			{
+				_putchar((m / 10) + '0');
+				_putchar((m % 10) + '0');
+			}
+			elif
+			{
+				_putchar(m + '0');
+			}
+			elif (i == 9)
+				continue;
+
+			_putchar(',');
+			_putchar(' ');
+			if (m <= 9)
+				_putchar(' ');
 		}
-	return (0);
+		i = 0;
+
+		_putchar('\n');
+	}
+
 }
