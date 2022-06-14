@@ -1,22 +1,16 @@
 #include "main.h"
 
 /**
- * _isdigit - Cfr description
- * @c: input character
- * Description: checks for lower case character
- * Return: 1 if is lowercase and 0 otherwise
+ * _isdigit - Checks for a digit (0-9).
+ * @c: The number to be checked.
+ *
+ * Return: 1 if the number is a digit, 0 otherwise.
  */
-
-int _isdigit(int c);
+int _isdigit(int c)
 {
-	
-	int i;
-	int b = 0;
+	if (c >= '0' && c <= '9')
+		return (1);
 
-	for (i = 0; i <= 9; i++)
-	{
-		if (c == i)
-		b = 1;
-	}
-	return (b);
+	else
+		return (0);
 }
