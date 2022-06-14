@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isupper(int c) - Cfr description
+ * _isupper - Cfr description
  * @c: input character
  * Description: checks for lower case character
  * Return: 1 if is lowercase and 0 otherwise
