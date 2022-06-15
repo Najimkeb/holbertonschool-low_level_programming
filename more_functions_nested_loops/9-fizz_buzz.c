@@ -28,8 +28,8 @@ int main(void)
 
 				if (a == 100)
 				continue;
-				printf(" ")
+				printf(" ");
 				}
-				printf("\n")
+				printf("\n");
 				return (0);
 				}
