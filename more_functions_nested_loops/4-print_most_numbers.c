@@ -9,7 +9,7 @@ void print_numbers(void)
 
 	for (; a <= 9; a++)
 	{
-		if (a == 2; a == 4)
+		if ((a == 2 && a == 4))
 		{
 			continue;
 		}
