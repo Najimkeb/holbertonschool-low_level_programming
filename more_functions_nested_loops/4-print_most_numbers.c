@@ -9,13 +9,13 @@ void print_numbers(void)
 
 	for (; a <= 9; a++)
 	{
-		if (a == 2 ; a == 4)
+		if (a == 2; a == 4)
 		{
 			continue;
 		}
 		else
 		{
-			_putchar(x + '0');
+			_putchar(a + '0');
 		}
 	}
 	_putchar('\n');
