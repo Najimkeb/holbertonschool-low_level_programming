@@ -3,7 +3,6 @@
 /**
  * more_numbers- print 0 of 14
  *
- *
  */
 
 void more_numbers(void)
