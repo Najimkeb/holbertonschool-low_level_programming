@@ -28,7 +28,7 @@ int main(void)
 
 		if (a == 100)
 			continue;
-		printf("  ");
+		printf(' ');
 	}
 	printf("\n");
 	return (0);
