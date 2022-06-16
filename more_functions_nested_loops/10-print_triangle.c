@@ -11,18 +11,27 @@ void print_triangle(int size)
 
 	char *c = '#';
 	int hight = 10;
-	int i, j;
+	int i, j, k;
 
-	for (i = 1; i <= hight; i++)
+	if (size <= 0)
 	{
-		for (j = 0; j < hight - i; j++)
+		_putchar('\n');
+	}
+	else
+	{
+		for (i = 0; i < size; i++)
 		{
-			_putchar(" ");
+			for (j = size - i; j > 1; j--)
+			{
+				_putchar(32);
+			}
+
+			for (k = 0; k <= i; k++)
+			{
+				_putchar(35);
+			}
+
+			_putchar('\n');
 		}
-		for (j = 0; j < i ; j++)
-		{
-			_putchar("%*c", *c);
-		}
-		_putchar("\n");
 	}
 }
