@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
-  * _puts - prints a string, followed by a new line
-  * @str:variable
-  */
+ * _puts - prints a string, followed by a new line
+ * @str:variable
+ */
 
 void _puts(char *str);
 {
@@ -14,6 +14,5 @@ void _puts(char *str);
 	{
 		_putchar(*str);
 	}
-
- _putchar('\n')
+	_putchar('\n')
 }
