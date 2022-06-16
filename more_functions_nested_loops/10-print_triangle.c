@@ -9,7 +9,7 @@
 void print_triangle(int size)
 {
 
-	char* c = '#';
+	char *c = '#';
 	int hight = 10;
 	int i, j;
 
