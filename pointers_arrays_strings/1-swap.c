@@ -6,7 +6,7 @@
  *@a: pointer
  *@b:pointer
  *@n:pointer
- *swap_int
+ *@swap_int
  * Return: Always 0.
  */
 
