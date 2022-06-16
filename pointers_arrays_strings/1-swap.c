@@ -6,8 +6,7 @@
  *@a: pointer
  *@b:pointer
  *@n:pointer
- *@swap_int
- * 
+ *@swap_int 
  */
 
 void swap_int(int *a, int *b)
