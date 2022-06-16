@@ -6,7 +6,7 @@
  * @str:variable
  */
 
-void _puts(char *str);
+ivoid _puts(char *str);
 {
 	int a = 0;
 
@@ -14,5 +14,4 @@ void _puts(char *str);
 	{
 		_putchar(*str);
 	}
-	_putchar('\n');
 }
