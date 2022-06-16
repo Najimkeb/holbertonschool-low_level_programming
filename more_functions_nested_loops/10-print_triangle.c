@@ -17,12 +17,12 @@ void print_triangle(int size)
 	{
 		for (j = 0; j < hight - i; j++)
 		{
-			printf(" ");
+			_putchar(" ");
 		}
 		for (j = 0; j < i ; j++)
 		{
 			printf("%c", c);
 		}
-		printf("\n");
+		_putchar("\n");
 	}
 }
