@@ -3,8 +3,9 @@
 
 /**
  *  reset_to_98 - check the code
- *@n: pointer
- *
+ *@a: pointer
+ *@b:pointer
+ *@n:pointer
  * Return: Always 0.
  */
 
