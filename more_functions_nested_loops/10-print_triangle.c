@@ -9,8 +9,6 @@
 void print_triangle(int size)
 {
 
-	char *c = '#';
-	int hight = 10;
 	int i, j, k;
 
 	if (size <= 0)
