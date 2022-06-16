@@ -9,11 +9,11 @@
 void print_triangle(int size)
 {
 
-	char c = '#';
+	char * c = '#';
 	int hight = 10;
 	int i, j;
 
-	for (i = 1; i <= hight, i++)
+	for (i = 1; i <= hight; i++)
 	{
 		for (j = 0; j < hight - i; j++)
 		{
@@ -21,7 +21,7 @@ void print_triangle(int size)
 		}
 		for (j = 0; j < i ; j++)
 		{
-			printf("%c", c);
+			_putchar("%c", c);
 		}
 		_putchar("\n");
 	}
