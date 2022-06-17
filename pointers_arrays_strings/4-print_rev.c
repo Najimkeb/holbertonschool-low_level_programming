@@ -3,7 +3,7 @@
 
 /**
  * print_rev - prints a string, followed by a new line
- * @str:variable
+ * @s:variable
  */
 
 void print_rev(char *s)
@@ -13,7 +13,7 @@ void print_rev(char *s)
 	while (s [b++])
 		a++;
 
-	for ( b = a -1; b => 0; b--)
+	for ( b = a -1; b > 0; b--)
 	{
 		_putchar(s[b]);
 	}
