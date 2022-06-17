@@ -6,31 +6,23 @@
  *
  * Return: void
  */
+
 void puts_half(char *str)
 {
-	int a = 0;
-	int b;
+	int b, a = 0;
 
-	while (str[a] != '\0')
-	{
+	while (*(str + a))
 		a++;
-	}
-
-	if (a % 2 == 1)
-	{
-		b = (a - 1) / 2;
+	b = a / 2;
+	if (a % 2)
 		b += 1;
-	}
-	else
+	while (b < a)
 	{
-		b = a / 2;
+		_putchar(*(str + b));
+		b++;
 	}
-
-	for (; b < a; b++)
-	{
-		_putchar(str[a]);
-	}
-
 	_putchar('\n');
 }
+
+
 
