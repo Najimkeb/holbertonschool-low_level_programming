@@ -4,12 +4,13 @@
   * reverse_array - Reverses the content of an array of integers
   * @a: An array of integers
   * @n: Number of elements to swap
+  *
   * Return: empty
   */
 
-void reverse_array(int *a, int c)
+void reverse_array(int *a, int n)
 {
-	int *p, b, d, c;
+	int *p, b, d, e;
 
 	p = a;
 
@@ -18,10 +19,10 @@ void reverse_array(int *a, int c)
 		p++;
 	}
 
-	for (c = 0; c < a / 2; c++)
+	for (e = 0; e < b / 2; e++)
 	{
-		d = a[c];
-		a[c] = *p;
+		d = a[e];
+		a[e] = *p;
 		*p = d;
 		p--;
 	}
