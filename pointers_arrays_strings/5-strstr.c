@@ -3,7 +3,8 @@
 /**
  * _strstr - function finds the first occurrence of the substring needle in the string haystack
  * @a:variable
- * @b:variable
+ * @b:variabl
+ * e
  * Return: Always 0.
  */
 
