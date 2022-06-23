@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * _strstr - function finds the first occurrence of the substring needle in the string haystack
- * @a:variable
- * @b:variabl
- * e
+ * _strstr - substring needle in the string haystack
+ *
+ * @haystack:variable
+ * @needle:variable
+ *
  * Return: Always 0.
  */
 
