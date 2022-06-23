@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _strstr - check the code
- *@a:variable
- @b:variable
+ * _strstr - function finds the first occurrence of the substring needle in the string haystack
+ * @a:variable
+ * @b:variable
  * Return: Always 0.
  */
 
