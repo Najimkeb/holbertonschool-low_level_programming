@@ -1,4 +1,4 @@
-#ifndef MAIN-H
+#ifndef MAIN_H
 #define main_H
 
 int _putchar(char c);
@@ -47,4 +47,4 @@ char *_strstr(char *haystack, char *needle);
 char *_strstr(char *haystack, char *needle);
 int _atoi(char *s);
 
-#endif /* main-h */
+#endif /* main_h */
