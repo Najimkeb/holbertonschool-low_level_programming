@@ -1,3 +1,6 @@
+#ifndef main.h
+#define main.h
+
 int _putchar(char c);
 void print_alphabet(void);
 void print_alphabet_x10(void);
@@ -43,3 +46,5 @@ char *_strchr(char *s, char c);
 char *_strstr(char *haystack, char *needle);
 char *_strstr(char *haystack, char *needle);
 int _atoi(char *s);
+
+#endif /* main.h */
