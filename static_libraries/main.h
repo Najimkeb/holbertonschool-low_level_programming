@@ -1,5 +1,5 @@
 #ifndef MAIN_H
-#define main_H
+#define MAIN_H
 
 int _putchar(char c);
 void print_alphabet(void);
@@ -47,4 +47,4 @@ char *_strstr(char *haystack, char *needle);
 char *_strstr(char *haystack, char *needle);
 int _atoi(char *s);
 
-#endif /* main_h */
+#endif /* MAIN_H */
