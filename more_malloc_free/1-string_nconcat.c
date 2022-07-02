@@ -1,12 +1,12 @@
 #include <stdlib.h>
 
 /**
-  * string_nconcat - ...
-  * @s1: ...
-  * @s2: ...
-  * @n: ...
+  * string_nconcat - concatenates two strings.
+  * @s1: variable
+  * @s2: variable
+  * @n: variable
   *
-  * Return: ...
+  * Return: str
   */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
