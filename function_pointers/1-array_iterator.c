@@ -2,8 +2,7 @@
 #include "function_pointers.h"
 
 /**
- * array_iterator - prints an integer
- * @elem: the integer to print
+ * array_iterator - prints an integer@
  * @array: variable
  * @action: variable
  * @size: variable
