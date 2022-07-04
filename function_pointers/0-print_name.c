@@ -3,8 +3,8 @@
 /**
  * print_name - prints a name
  * @name: name of the person
- *
- * Return: Nothing.
+ * @f: pointer, pointer fct
+ * Return: Nothing
  */
 
 void print_name(char *name, void (*f)(char *))
