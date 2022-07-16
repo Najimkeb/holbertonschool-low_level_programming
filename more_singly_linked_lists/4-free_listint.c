@@ -2,7 +2,7 @@
 
 /**
  * free_listint -  frees a list.
- * @head: pointer 
+ * @head: pointer
  *
  * Return: Anything
  */
