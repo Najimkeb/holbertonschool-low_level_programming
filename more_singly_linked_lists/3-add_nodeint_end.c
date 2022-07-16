@@ -2,8 +2,8 @@
 
 /**
  * add_nodeint_end - adds a new node at the end of a list
+ * @head: double pointer
  *
- * @head: double pointer 
  * @n: variable
  * Return: pointer to the new node
  */
