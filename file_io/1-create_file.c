@@ -20,7 +20,7 @@ int create_file(const char *filename, char *text_content)
 	if (a < -1)
 		return (-1);
 
-	while (text_content && text_content[len] = '\0')
+	while (text_content && text_content[len] != '\0')
 		len++;
 
 	d = write(a, text_content, len);
