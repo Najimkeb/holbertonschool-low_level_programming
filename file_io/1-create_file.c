@@ -17,18 +17,17 @@ int create_file(const char *filename, char *text_content)
 
 	a = open(filename, O_CREAT | O_TRUNC | O_RDWR, 0600);
 
-	if (a < 0)
+	if (a < -1)
 		return (-1);
 
-	while (text_content && text_content[len])
+	while (text_content && text_content[len] = '\0')
 		len++;
 
 	d = write(a, text_content, len);
+	close(a);
 	if (d < 0)
 	{
-		close(a);
 		return (-1);
 	}
-	close(a);
-	return (d);
+	return (1);
 }
